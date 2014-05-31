@@ -1,0 +1,161 @@
+html, body{
+	height: 100%;
+}
+#header{
+	background-color: white;
+	border-radius:  0px 0px 0px 0px;
+	border-bottom: 2px solid gray;
+}
+
+#myName{
+	display: inline-block;
+	font-family: Herr Von Muellerhoff, cursive;
+	padding: 25px;
+	color: #588c7e;
+	font-size: 25px;
+}
+
+#links{
+	float: right;
+	padding: 25px;
+	font-family: Trebuchet MS, Helvetica;
+
+}
+#links li{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+}
+
+#links a{
+	font-size: 15px;
+	color: #588c7e;
+	text-decoration: none;
+}
+
+#links a:hover{
+	color: #f2e394;
+}
+
+#main a{
+	color: #588c7e;
+}
+
+#main{
+	margin-top: 20px;
+	background-color: white;
+	color: #f2ae72;
+	font-family: Georgia;
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+}
+
+#about{
+	font-family: Georgia;
+	color: white;
+	background-color: #8c4646;
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+#about li{
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+#about .italicized{
+	font-style: italic;
+	font-size: 15px;
+}
+
+#about .headLine{
+	font-size: 45px;
+}
+
+#downArrow:hover{
+	color: #d96459;
+}
+
+#downArrow2{
+	margin-top: 100px;
+	color: white;
+	font-size: 45px;
+}
+
+#downArrow2:hover{
+	color: #f2ae72;
+}
+
+#downArrow3{
+	margin-top: 50px;
+	color: #588c7e;
+}
+
+#downArrow3:hover{
+	color: white;
+}
+
+@media all and (max-width: 610px)  {
+  #links a{
+  	font-size: 10px;
+  }
+  #myName{
+  	font-size: 20px;
+  }
+}
+
+#projects{
+	width: 100%;
+	height: 70%;
+	text-align: center;
+	background-color: #f2ae72;
+	color: #588c7e;
+	font-family: Georgia;
+	font-size: 45px;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+
+
+#githubImg{
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+#githubImg:hover{
+
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+}
+
+
+#resume{
+	width: 100%;
+	height: 50%;
+	color: #d96459;
+	padding: 20px;
+	padding-top: 50px;
+	font-size: 45px;
+	text-align: center;
+	font-family: Georgia;
+
+}
+/*8c4646 	f2e394 d96459* f2ae72/
