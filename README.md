@@ -1,9 +1,5 @@
 
 
 
-This is my personal website
+Personal Website
 =======
-
-
-Yep.
-
