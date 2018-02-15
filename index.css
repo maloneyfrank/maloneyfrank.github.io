@@ -1,172 +1,65 @@
-html, body{
+html {
 	height: 100%;
 }
-#header{
-	background-color: white;
-	border-radius:  0px 0px 0px 0px;
-	border-bottom: 2px solid gray;
+
+body {
+	margin: 0;
+	background-image: url('../img/background.png');
+	background-size: cover;
+	background-repeat: none;
 }
 
-#myName{
-	display: inline-block;
-	font-family: Herr Von Muellerhoff, cursive;
-	padding: 25px;
-	color: #588c7e;
-	font-size: 25px;
-}
 
-#links{
-	float: right;
-	padding: 25px;
-	font-family: Trebuchet MS, Helvetica;
-
-}
-#links li{
-	display: inline;
+.links {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color: #4648A8;
 	text-decoration: none;
-	padding: 20px;
+	padding-right: 10px;
 }
 
-#links a{
-	font-size: 15px;
-	color: #588c7e;
-	text-decoration: none;
+.links:hover {
+	color: #F19661;
 }
 
-#links a:hover{
-	color: #f2e394;
+#logo {
+	width: 100px;	
+	font-size: 55px;
+	font-family: 'Bungee Shade', cursive;
+	padding: 5px;
+	padding-left: 10px;
+	color: #4648A8;
+	cursor: pointer;
 }
 
-#main a{
-	color: #588c7e;
+#logo:hover {
+	color: #F7EC5D;
 }
 
-#main{
-	margin-top: 20px;
-	background-color: white;
-	color: #f2ae72;
-	font-family: Georgia;
-	font-size: 45px;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	bottom: 0;
+#header {
+	height: 20%;
+}
+#header-right {
+	position: absolute;
+	top: 25px;
+	right: 40px;
+	font-size: 17.5px;
 }
 
-#about{
-	font-family: Georgia;
-	color: white;
-	background-color: #8c4646;
-	width: 100%;
-	height: 125%;
+#intro {
+	font-family: 'Saira Semi Condensed', sans-serif;
 	font-size: 20px;
-	padding: 20px;
-	padding-top: 50px;
-}
-
-#about li{
-	font-size: 30px;
-	text-decoration: none;
-	margin-left: 20px;
-}
-
-.hidden{
-	visibility: hidden;
-}
-
-#about .italicized{
-	font-style: italic;
-	font-size: 15px;
-}
-
-#about .headLine{
-	font-size: 45px;
-}
-
-#downArrow:hover{
-
-	color: #d96459;
-}
-
-#downArrow2{
-	color: white;
-	font-size: 45px;
-}
-
-#downArrow2:hover{
-	color: #f2ae72;
-}
-
-#downArrow3{
-
-	color: #588c7e;
-}
-
-#downArrow3:hover{
-	color: white;
-}
-
-@media all and (max-width: 610px)  {
-  #links a{
-  	font-size: 10px;
-  }
-  #myName{
-  	font-size: 20px;
-  }
-}
-
-@media all and (max-width: 950px)  {
-      #about{
-          height: 150%;
-      }
-}
-@media all and (max-width: 550px)  {
-    #about{
-        height: 200%;
-    }
-}
-
-#projects{
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	background-color: #f2ae72;
-	color: #588c7e;
-	font-family: Georgia;
-	font-size: 45px;
-	padding: 20px;
-	padding-top: 50px;
-}
-
-
-
-#githubImg{
-	-webkit-transition: all 500ms ease;
--moz-transition: all 500ms ease;
--ms-transition: all 500ms ease;
--o-transition: all 500ms ease;
-transition: all 500ms ease;
-}
-
-#githubImg:hover{
-
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
-    -moz-filter: invert(100%);
-    -o-filter: invert(100%);
-    -ms-filter: invert(100%);
-}
-
-
-#resume{
-	width: 100%;
-	height: 30%;
-	color: #d96459;
-	padding: 20px;
-	padding-top: 50px;
-	font-size: 45px;
-	text-align: center;
-	font-family: Georgia;
+	width: 500px;
 
 }
-/*8c4646 	f2e394 d96459* f2ae72/
+
+#main {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 25px;
+	height: 75%;
+	width: 60%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+#music {
+	margin-top: 10%;
+}
