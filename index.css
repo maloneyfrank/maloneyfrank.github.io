@@ -9,6 +9,18 @@ body {
 	background-repeat: none;
 }
 
+#footer {
+    position: fixed;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    opacity: 0.85;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 42px;
+}
+
 
 .links {
 	font-family: 'Saira Semi Condensed', sans-serif;
@@ -60,6 +72,15 @@ body {
 	margin-left: 10%;
 	margin-top: 5%;
 }
+
 #music {
-	margin-top: 10%;
+	float: left;
+}
+
+#art {
+	opacity: 1.0;
+	float: right;
+	font-size: 12px;
+	width: 40%;
+	margin-top: 10px;
 }
